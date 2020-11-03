@@ -1,5 +1,5 @@
 export default (clientId, state, scope) => {
-  const current = encodeURIComponent(window.location.href);
+  const current = encodeURIComponent(window.location.origin);
   const base =
     "https://www.linkedin.com/oauth/v2/authorization?response_type=code&";
 
